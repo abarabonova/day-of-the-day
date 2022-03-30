@@ -1,0 +1,366 @@
+@font-face {
+  font-family: arial;
+  src: font-url('arialnarrow') format('opentype');
+}
+
+body {
+  background-image: image-url('back.jpg');
+  background-size: cover;
+}
+
+.heading {
+  width: 300px;
+  order: 0;
+  margin: 0px auto 16px auto;
+  filter: blur(1.4px);
+}
+
+.downloadButton {
+  font-family: arial;
+  width: 960px;
+  height: 60px;
+
+  font-size: 60px;
+  line-height: 60px;
+  text-align: center;
+
+  padding: 20px;
+  margin: 0 auto;
+  margin-bottom: 40px;
+  order: 3;
+
+  background: white;
+  color: #4484FF;
+  border-radius: 600px;
+  -webkit-text-stroke: 4px;
+
+  box-shadow: 0px 0px 44px #ffffff;
+  filter: blur(1.4px);
+  transition: .3s;
+}
+
+.downloadButton:hover {
+  box-shadow: 0px 0px 114px #ffffff;
+  transition: .3s;
+  cursor: pointer;
+}
+
+.prototype_6 {
+  display: flex;
+
+  margin: auto;
+  margin-bottom: 30px;
+  border-radius: 30px;
+
+  order: 1;
+  overflow: hidden;
+  box-shadow: 0px 0px 34px #ffb9dd;
+
+  .frame {
+    position: relative;
+    width: 1000px;
+    height: 600px;
+    margin: auto;
+    overflow: hidden;
+
+    .circle {
+      position: absolute;
+      background-size: cover;
+
+      &.layer4-01 {
+        background-image: image-url('layer4-01.png');
+      }
+
+      &.layer4-02 {
+        background-image: image-url('layer4-02.png');
+      }
+
+      &.layer4-03 {
+        background-image: image-url('layer4-03.png');
+      }
+
+      &.layer4-04 {
+        background-image: image-url('layer4-04.png');
+      }
+
+      &.layer4-05 {
+        background-image: image-url('layer4-05.png');
+      }
+
+      &.layer4-06 {
+        background-image: image-url('layer4-06.png');
+      }
+
+      &.layer4-07 {
+        background-image: image-url('layer4-07.png');
+      }
+
+      &.layer4-08 {
+        background-image: image-url('layer4-08.png');
+      }
+
+      &.layer4-09 {
+        background-image: image-url('layer4-09.png');
+      }
+
+      &.layer4-10 {
+        background-image: image-url('layer4-10.png');
+      }
+
+      &.layer4-11 {
+        background-image: image-url('layer4-11.png');
+      }
+
+      &.layer4-12 {
+        background-image: image-url('layer4-12.png');
+      }
+
+      &.layer4-13 {
+        background-image: image-url('layer4-13.png');
+      }
+
+      &.layer4-14 {
+        background-image: image-url('layer4-14.png');
+      }
+
+      &.layer4-15 {
+        background-image: image-url('layer4-15.png');
+      }
+
+      &.layer4-16 {
+        background-image: image-url('layer4-16.png');
+      }
+
+      &.layer4-100 {
+        background-image: image-url('layer4-100.png');
+      }
+
+      &.layer4-101 {
+        background-image: image-url('layer4-101.png');
+      }
+
+      &.layer4-102 {
+        background-image: image-url('layer4-102.png');
+      }
+
+      &.layer4-103 {
+        background-image: image-url('layer4-103.png');
+      }
+
+      &.layer4-104 {
+        background-image: image-url('layer4-104.png');
+      }
+
+      &.layer4-105 {
+        background-image: image-url('layer4-105.png');
+      }
+
+      &.layer4-106 {
+        background-image: image-url('layer4-106.png');
+      }
+
+      &.layer4-200 {
+        background-image: image-url('layer4-200.png');
+      }
+
+      &.layer4-201 {
+        background-image: image-url('layer4-201.png');
+      }
+
+      &.layer4-202 {
+        background-image: image-url('layer4-202.png');
+      }
+
+      &.layer4-203 {
+        background-image: image-url('layer4-203.png');
+      }
+    }
+
+    &.back-01 {
+      background-image: image-url('0-01.png');
+      background-size: cover;
+
+      .textWrapper {
+        .text {
+          color: red;
+          -webkit-text-stroke: 4px;
+        }
+      }
+    }
+
+    &.back-02 {
+      background-image: image-url('0-02.png');
+      background-size: cover;
+
+      .textWrapper {
+        .text {
+          color: blue;
+          -webkit-text-stroke: 4px;
+        }
+      }
+    }
+
+    &.back-03 {
+      background-image: image-url('0-03.png');
+      background-size: cover;
+
+      .textWrapper {
+        .text {
+          color: red;
+          -webkit-text-stroke: 4px;
+        }
+      }
+    }
+
+    &.back-04 {
+      background-image: image-url('0-04.png');
+      background-size: cover;
+
+      .textWrapper {
+        .text {
+          color: red;
+          -webkit-text-stroke: 4px;
+        }
+      }
+    }
+
+    &.back-05 {
+      background-image: image-url('0-05.png');
+      background-size: cover;
+
+      .textWrapper {
+        .text {
+          color: red;
+          -webkit-text-stroke: 4px;
+        }
+      }
+    }
+
+    &.back-06 {
+      background-image: image-url('0-06.png');
+      background-size: cover;
+
+      .textWrapper {
+        .text {
+          color: red;
+          -webkit-text-stroke: 4px;
+        }
+      }
+    }
+
+    &.back-07 {
+      background-image: image-url('0-07.png');
+      background-size: cover;
+
+      .textWrapper {
+        .text {
+          color: red;
+          -webkit-text-stroke: 4px;
+        }
+      }
+    }
+
+    &.back-08 {
+      background-image: image-url('0-08.png');
+      background-size: cover;
+
+      .textWrapper {
+        .text {
+          color: red;
+          -webkit-text-stroke: 4px;
+        }
+      }
+    }
+
+    &.back-09 {
+      background-image: image-url('0-09.png');
+      background-size: cover;
+
+      .textWrapper {
+        .text {
+          color: red;
+          -webkit-text-stroke: 4px;
+        }
+      }
+    }
+
+    &.back-10 {
+      background-image: image-url('0-10.png');
+      background-size: cover;
+
+      .textWrapper {
+        .text {
+          color: red;
+          -webkit-text-stroke: 4px;
+        }
+      }
+    }
+
+    &.back-11 {
+      background-image: image-url('0-11.png');
+      background-size: cover;
+
+      .textWrapper {
+        .text {
+          color: red;
+          -webkit-text-stroke: 4px;
+        }
+      }
+    }
+
+    &.back-12 {
+      background-image: image-url('0-12.png');
+      background-size: cover;
+
+      .textWrapper {
+        .text {
+          color: red;
+          -webkit-text-stroke: 4px;
+        }
+      }
+    }
+  }
+
+  .textWrapper {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 60%;
+    top: 20%;
+    z-index: 10;
+
+    text-shadow: 0px 0px 12px #ffffff;
+    filter: blur(1.5px);
+
+    &.top {
+      justify-content: flex-start;
+    }
+
+    &.center {
+      justify-content: center;
+    }
+
+    &.bottom {
+      justify-content: flex-end;
+    }
+
+    .text {
+      position: relative;
+      width: 80%;
+      // left: 10%;
+      font-family: arial;
+      font-size: 60px;
+      line-height: 110%;
+      text-transform: uppercase;
+      text-align: center;
+    }
+
+    .text:focus {
+      outline-color: azure;
+      outline-width: medium;
+      outline-width: 1px;
+    }
+  }
+}
